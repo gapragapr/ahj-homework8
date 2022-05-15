@@ -41,7 +41,7 @@ messageFormBtn.onclick = (e) => {
 
 
 
-const ws = new WebSocket('ws://localhost:7070/ws')
+const ws = new WebSocket('ws://ahj-homework8-server.herokuapp.com/ws')
 
 ws.addEventListener('open', () => {
     ws.addEventListener('message', msg => {
